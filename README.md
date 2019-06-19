@@ -1,11 +1,12 @@
 <h1 align="center">Welcome to Chrome Dino Game 👋</h1>
+<div align="center">
 <p>
   <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/iamsaqibs">
     <img alt="Twitter: iamsaqibs" src="https://img.shields.io/twitter/follow/iamsaqibs.svg?style=social" target="_blank" />
   </a>
 </p>
-
+</div>
 > Just a practice project with ML integrated voice activated commands
 
 ## Install
