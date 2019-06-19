@@ -8,7 +8,7 @@
 </p>
 </div>
 
-> Just a practice project with ML integrated voice activated commands
+> Just a practice project with ML integrated voice activated commands. Use UP command for jump.
 
 ## Install
 
