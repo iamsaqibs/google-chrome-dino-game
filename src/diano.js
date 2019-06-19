@@ -24,6 +24,7 @@ class Dino {
     }
 
     show () {
+        fill('red');
         rect (this.x, this.y, 50, 50);
     }
 

@@ -1,14 +1,29 @@
 let dino;
 let obstacles = [];
+let soundClassifier;
 
 
 function preload(){
-    soundClasifier = ml5.soundClasifier()
+    const options = { probabilityThreshold: 0.95 };
+    soundClassifier = ml5.soundClassifier('SpeechCommands18w', options);
 }
 
 function setup() {
     createCanvas(1350, 450);
     dino = new Dino();
+    soundClassifier.classify(gotCommand);
+}
+
+function gotCommand (error, results){
+    if(error){
+        console.error(error);
+    }
+
+    console.log(results[0].label, results[0].confidence);
+
+    if (results[0].label == 'up'){
+        dino.jump();
+    }
 }
 
 function keyPressed(){
