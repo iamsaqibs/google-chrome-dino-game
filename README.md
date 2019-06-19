@@ -7,6 +7,7 @@
   </a>
 </p>
 </div>
+
 > Just a practice project with ML integrated voice activated commands
 
 ## Install

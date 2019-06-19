@@ -13,6 +13,10 @@ class Dino {
         }   
     }
 
+    hits(obstacle){
+        return collideRectRect(this.x, this.y, 50, 50, obstacle.x, obstacle.y, 50, 50);
+    }
+
     move() {
         this.y += this.vy;
         this.vy += this.gravity;

@@ -6,7 +6,7 @@ class Obstacle {
     }
 
     move(){
-        this.x -= 5;
+        this.x -= 10;
     }
 
     show(){
